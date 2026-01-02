@@ -1,0 +1,12 @@
+<svg width="240" height="60" viewBox="0 0 240 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Decorative diamond symbol -->
+  <g transform="translate(10, 20)">
+    <path d="M10 0 L20 10 L10 20 L0 10 Z" fill="#AA8453"/>
+    <path d="M10 5 L15 10 L10 15 L5 10 Z" fill="#D4A373"/>
+  </g>
+  
+  <!-- GRIPA HOTEL text -->
+  <text x="40" y="35" font-family="serif" font-size="24" font-weight="bold" fill="#111111" letter-spacing="2">
+    GRIPA HOTEL
+  </text>
+</svg>
