@@ -1,12 +1,14 @@
-import { FaWifi, FaCoffee, FaBath, FaParking, FaSwimmingPool, FaHotdog, FaStopwatch, FaCocktail } from 'react-icons/fa';
+import { FaWifi, FaCoffee, FaBath, FaParking, FaSwimmingPool, FaHotdog, FaStopwatch, FaCocktail, FaGlassMartini, FaUmbrellaBeach } from 'react-icons/fa';
 import images from '../assets';
+
+export const hotelEntity = 'The GRIPA HOTEL';
 
 export const roomData = [
   {
     id: 1,
     name: 'Superior Room',
     description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit.Ea placeat eos sed voluptas unde veniam eligendi a. Quaerat molestiae hic omnis temporibus quos consequuntur nam voluptatum ea accusamus, corrupti nostrum eum placeat quibusdam quis beatae quae labore earum architecto aliquid debitis.',
+      'Experience ultimate comfort in our Superior Room, featuring elegant decor and modern amenities. Perfect for solo travelers seeking a peaceful retreat with all the essentials for a relaxing stay.',
     facilities: [
       { name: 'Wifi', icon: FaWifi },
       { name: 'Coffee', icon: FaCoffee },
@@ -27,7 +29,7 @@ export const roomData = [
     id: 2,
     name: 'Signature Room',
     description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit.Ea placeat eos sed voluptas unde veniam eligendi a. Quaerat molestiae hic omnis temporibus quos consequuntur nam voluptatum ea accusamus, corrupti nostrum eum placeat quibusdam quis beatae quae labore earum architecto aliquid debitis.',
+      'Our Signature Room offers a touch of sophistication with premium furnishings and a cozy layout. Ideal for couples or business travelers who appreciate a blend of style and functionality.',
     facilities: [
       { name: 'Wifi', icon: FaWifi },
       { name: 'Coffee', icon: FaCoffee },
@@ -48,7 +50,7 @@ export const roomData = [
     id: 3,
     name: 'Deluxe Room',
     description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit.Ea placeat eos sed voluptas unde veniam eligendi a. Quaerat molestiae hic omnis temporibus quos consequuntur nam voluptatum ea accusamus, corrupti nostrum eum placeat quibusdam quis beatae quae labore earum architecto aliquid debitis.',
+      'The Deluxe Room provides ample space and elevated comfort, designed for those who desire a more luxurious stay. Enjoy beautiful views and refined touches throughout your living space.',
     facilities: [
       { name: 'Wifi', icon: FaWifi },
       { name: 'Coffee', icon: FaCoffee },
@@ -69,12 +71,12 @@ export const roomData = [
     id: 4,
     name: 'Luxury Room',
     description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit.Ea placeat eos sed voluptas unde veniam eligendi a. Quaerat molestiae hic omnis temporibus quos consequuntur nam voluptatum ea accusamus, corrupti nostrum eum placeat quibusdam quis beatae quae labore earum architecto aliquid debitis.',
+      'Indulge in pure luxury in this exquisitely designed room. Featuring high-end finishes, a private balcony with stunning views, and a fully stocked mini bar for your enjoyment.',
     facilities: [
       { name: 'Wifi', icon: FaWifi },
-      { name: 'Coffee', icon: FaCoffee },
+      { name: 'Private Balcony', icon: FaUmbrellaBeach },
       { name: 'Bath', icon: FaBath },
-      { name: 'Parking Space', icon: FaParking },
+      { name: 'Mini Bar', icon: FaGlassMartini },
       { name: 'Swimming Pool', icon: FaSwimmingPool },
       { name: 'Breakfast', icon: FaHotdog },
       { name: 'GYM', icon: FaStopwatch },
@@ -90,12 +92,12 @@ export const roomData = [
     id: 5,
     name: 'Luxury Suite Room',
     description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit.Ea placeat eos sed voluptas unde veniam eligendi a. Quaerat molestiae hic omnis temporibus quos consequuntur nam voluptatum ea accusamus, corrupti nostrum eum placeat quibusdam quis beatae quae labore earum architecto aliquid debitis.',
+      'Our most prestigious suite, offering unparalleled space and sophistication. Includes a separate living area, private balcony, and a luxury mini bar, perfect for a truly elite experience.',
     facilities: [
       { name: 'Wifi', icon: FaWifi },
-      { name: 'Coffee', icon: FaCoffee },
+      { name: 'Private Balcony', icon: FaUmbrellaBeach },
       { name: 'Bath', icon: FaBath },
-      { name: 'Parking Space', icon: FaParking },
+      { name: 'Mini Bar', icon: FaGlassMartini },
       { name: 'Swimming Pool', icon: FaSwimmingPool },
       { name: 'Breakfast', icon: FaHotdog },
       { name: 'GYM', icon: FaStopwatch },
@@ -111,7 +113,7 @@ export const roomData = [
     id: 6,
     name: 'Deluxe Room',
     description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit.Ea placeat eos sed voluptas unde veniam eligendi a. Quaerat molestiae hic omnis temporibus quos consequuntur nam voluptatum ea accusamus, corrupti nostrum eum placeat quibusdam quis beatae quae labore earum architecto aliquid debitis.',
+      'Spacious and versatile, this Deluxe Room is perfect for families or groups. Modern amenities and a welcoming atmosphere ensure everyone has a comfortable and memorable stay.',
     facilities: [
       { name: 'Wifi', icon: FaWifi },
       { name: 'Coffee', icon: FaCoffee },
@@ -132,12 +134,12 @@ export const roomData = [
     id: 7,
     name: 'Luxury Room',
     description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit.Ea placeat eos sed voluptas unde veniam eligendi a. Quaerat molestiae hic omnis temporibus quos consequuntur nam voluptatum ea ccusamus, corrupti nostrum eum placeat quibusdam quis beatae quae labore earum architecto aliquid debitis.',
+      'Escape to a world of elegance with our Luxury Room. Whether you are relaxing on the private balcony or enjoying a drink from the mini bar, every moment is crafted for your delight.',
     facilities: [
       { name: 'Wifi', icon: FaWifi },
-      { name: 'Coffee', icon: FaCoffee },
+      { name: 'Private Balcony', icon: FaUmbrellaBeach },
       { name: 'Bath', icon: FaBath },
-      { name: 'Parking Space', icon: FaParking },
+      { name: 'Mini Bar', icon: FaGlassMartini },
       { name: 'Swimming Pool', icon: FaSwimmingPool },
       { name: 'Breakfast', icon: FaHotdog },
       { name: 'GYM', icon: FaStopwatch },
@@ -153,7 +155,7 @@ export const roomData = [
     id: 8,
     name: 'Deluxe Room',
     description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit.Ea placeat eos sed voluptas unde veniam eligendi a. Quaerat molestiae hic omnis temporibus quos consequuntur nam voluptatum ea accusamus, corrupti nostrum eum placeat quibusdam quis beatae quae labore earum architecto aliquid debitis.',
+      'A perfect blend of comfort and style, this Deluxe Room offers premium bedding and a spacious layout. Ideal for those who want a quality stay at an exceptional value.',
     facilities: [
       { name: 'Wifi', icon: FaWifi },
       { name: 'Coffee', icon: FaCoffee },

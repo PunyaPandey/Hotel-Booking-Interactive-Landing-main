@@ -22,19 +22,19 @@ export const kidsList = [
 export const sliderData = [
     {
         id: 1,
-        title: 'Your Luxury Hotel For Vacation',
+        title: 'The GRIPA HOTEL - Your Spiritual Home near Ramghat',
         bg: images.Slider1,
         btnNext: 'See our rooms',
     },
     {
         id: 2,
-        title: 'Feel Relax & Enjoy Your Luxuriousness',
+        title: 'Serenity & Peace near Ramghat at The GRIPA HOTEL',
         bg: images.Slider2,
         btnNext: 'See our rooms',
     },
     {
         id: 3,
-        title: 'Your Luxury Hotel For Vacation',
+        title: 'Discover Spirituality with The GRIPA HOTEL near Ramghat',
         bg: images.Slider3,
         btnNext: 'See our rooms',
     },
@@ -43,15 +43,38 @@ export const sliderData = [
 
 export const hotelRules = [
     {
-        rules: 'Check-in : 3:00 PM - 9:00 PM',
+        rules: 'Check-in : 2:00 PM',
     },
     {
-        rules: 'Check-out : 10:30 AM',
+        rules: 'Check-out : 12:00 PM',
     },
     {
         rules: 'No Smoking',
     },
     {
-        rules: 'No Pet',
+        rules: 'Pet Friendly (Specific Room Categories Only)',
+    },
+    {
+        rules: 'Travel Tip - Best time to visit: October to March',
     },
 ]
+
+
+export const chitrakootAttractions = [
+    { name: 'Kamadgiri Temple' },
+    { name: 'Hanuman Dhara' },
+    { name: 'Ramghat' },
+    { name: 'Sphatik Shila' },
+    { name: 'Sati Anusuya Ashram' },
+    { name: 'Gupt Godavari' },
+]
+
+
+export const contactInfo = {
+    address: 'The GRIPA HOTEL, Kashavgarh, Chitrakoot, Chakala Sitapur, Uttar Pradesh 210204',
+    googleMapLink: 'https://maps.app.goo.gl/EykESidGk1B2G95L8',
+    phone: '+91 XXXX-XXXXXX',
+    email: 'bookings@gripahotel.com',
+    tourServicesPhone: '+91 XXXX-XXXXXX',
+    tourServicesEmail: 'tours@gripahotel.com',
+}

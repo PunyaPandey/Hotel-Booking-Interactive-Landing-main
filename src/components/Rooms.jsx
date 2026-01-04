@@ -1,7 +1,7 @@
 import { useRoomContext } from '../context/RoomContext';
 import { SpinnerDotted } from 'spinners-react';
 import { Room } from '.';
-
+import { hotelEntity } from '../db/data';
 
 const Rooms = () => {
 
@@ -22,7 +22,7 @@ const Rooms = () => {
       <div className='container mx-auto lg:px-0'>
 
         <div className='text-center'>
-          <p className='font-tertiary uppercase text-[15px] tracking-[6px]'>GRIPA Hotel</p>
+          <p className='font-tertiary uppercase text-[15px] tracking-[6px]'>{hotelEntity}</p>
           <h2 className='font-primary text-[45px] mb-6'>Room & Suites</h2>
         </div>
 

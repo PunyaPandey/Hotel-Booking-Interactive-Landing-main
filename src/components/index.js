@@ -9,5 +9,6 @@ export { default as Footer } from './Footer';
 export { default as Header } from './Header';
 export { default as Rooms } from './Rooms';
 export { default as Room } from './Room';
+export { default as FeaturedAmenities } from './FeaturedAmenities';
 
 export { default as ScrollToTop } from '../utils/ScrollToTop';
