@@ -8,7 +8,7 @@ export const roomData = [
     id: 1,
     name: 'Superior Room',
     description:
-      'Experience ultimate comfort in our Superior Room, featuring elegant decor and modern amenities. Perfect for solo travelers seeking a peaceful retreat with all the essentials for a relaxing stay.',
+      'Cozy comfort with a view of the Vindhya hills, perfect for solo pilgrims seeking a peaceful retreat.',
     facilities: [
       { name: 'Wifi', icon: FaWifi },
       { name: 'Coffee', icon: FaCoffee },
@@ -29,7 +29,7 @@ export const roomData = [
     id: 2,
     name: 'Signature Room',
     description:
-      'Our Signature Room offers a touch of sophistication with premium furnishings and a cozy layout. Ideal for couples or business travelers who appreciate a blend of style and functionality.',
+      'A perfect blend of modern comfort and traditional charm, ideal for couples looking for a serene getaway.',
     facilities: [
       { name: 'Wifi', icon: FaWifi },
       { name: 'Coffee', icon: FaCoffee },
@@ -50,7 +50,7 @@ export const roomData = [
     id: 3,
     name: 'Deluxe Room',
     description:
-      'The Deluxe Room provides ample space and elevated comfort, designed for those who desire a more luxurious stay. Enjoy beautiful views and refined touches throughout your living space.',
+      'Spacious elegance featuring traditional decor and modern amenities near Ramghat. Perfect for small families.',
     facilities: [
       { name: 'Wifi', icon: FaWifi },
       { name: 'Coffee', icon: FaCoffee },
@@ -71,7 +71,7 @@ export const roomData = [
     id: 4,
     name: 'Luxury Room',
     description:
-      'Indulge in pure luxury in this exquisitely designed room. Featuring high-end finishes, a private balcony with stunning views, and a fully stocked mini bar for your enjoyment.',
+      'Indulge in luxury with a private balcony offering stunning views of the holy city and premium amenities.',
     facilities: [
       { name: 'Wifi', icon: FaWifi },
       { name: 'Private Balcony', icon: FaUmbrellaBeach },
@@ -92,7 +92,7 @@ export const roomData = [
     id: 5,
     name: 'Luxury Suite Room',
     description:
-      'Our most prestigious suite, offering unparalleled space and sophistication. Includes a separate living area, private balcony, and a luxury mini bar, perfect for a truly elite experience.',
+      'Premium stay with panoramic Mandakini River views and exclusive concierge services for the discerning traveler.',
     facilities: [
       { name: 'Wifi', icon: FaWifi },
       { name: 'Private Balcony', icon: FaUmbrellaBeach },
@@ -113,7 +113,7 @@ export const roomData = [
     id: 6,
     name: 'Deluxe Room',
     description:
-      'Spacious and versatile, this Deluxe Room is perfect for families or groups. Modern amenities and a welcoming atmosphere ensure everyone has a comfortable and memorable stay.',
+      'Versatile and spacious, designed to accommodate families with ease while keeping you close to spiritual sites.',
     facilities: [
       { name: 'Wifi', icon: FaWifi },
       { name: 'Coffee', icon: FaCoffee },
@@ -134,7 +134,7 @@ export const roomData = [
     id: 7,
     name: 'Luxury Room',
     description:
-      'Escape to a world of elegance with our Luxury Room. Whether you are relaxing on the private balcony or enjoying a drink from the mini bar, every moment is crafted for your delight.',
+      'Experience the pinnacle of hospitality with a private balcony and curated amenities for a memorable stay.',
     facilities: [
       { name: 'Wifi', icon: FaWifi },
       { name: 'Private Balcony', icon: FaUmbrellaBeach },
@@ -155,7 +155,7 @@ export const roomData = [
     id: 8,
     name: 'Deluxe Room',
     description:
-      'A perfect blend of comfort and style, this Deluxe Room offers premium bedding and a spacious layout. Ideal for those who want a quality stay at an exceptional value.',
+      'Grand space for large groups, ensuring comfort and convenience without compromising on style.',
     facilities: [
       { name: 'Wifi', icon: FaWifi },
       { name: 'Coffee', icon: FaCoffee },

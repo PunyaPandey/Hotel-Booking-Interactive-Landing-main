@@ -71,10 +71,13 @@ export const chitrakootAttractions = [
 
 
 export const contactInfo = {
-    address: 'The GRIPA HOTEL, Kashavgarh, Chitrakoot, Chakala Sitapur, Uttar Pradesh 210204',
+    address: 'Kashavgarh, Chitrakoot, Chakala Sitapur, UP 210204',
     googleMapLink: 'https://maps.app.goo.gl/EykESidGk1B2G95L8',
     phone: '+91 XXXX-XXXXXX',
     email: 'bookings@gripahotel.com',
     tourServicesPhone: '+91 XXXX-XXXXXX',
     tourServicesEmail: 'tours@gripahotel.com',
+    tourDesk: 'Contact us for guided tours to Hanuman Dhara and Kamadgiri Temple.',
 }
+
+export const footerTravelTip = 'Best visited October to March. Accessible via Satna and Chitrakoot Dham stations.';

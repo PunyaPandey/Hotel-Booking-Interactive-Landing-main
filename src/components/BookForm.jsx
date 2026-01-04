@@ -8,7 +8,7 @@ const BookForm = () => {
 
 
   return (
-    <form className='h-[300px] lg:h-[70px] w-full'>
+    <form className='h-[300px] w-full lg:h-[70px]'>
       <div className='flex flex-col w-full h-full lg:flex-row'>
 
         <div className='flex-1 border-r'>
@@ -27,10 +27,11 @@ const BookForm = () => {
           <KidsDropdown />
         </div>
 
+        {/* button */}
         <button
-          type='submit'
-          className='btn btn-primary'
           onClick={(e) => handleCheck(e)}
+          className='btn btn-primary min-h-[60px]'
+          type='submit'
         >
           Check Now
         </button>
@@ -41,3 +42,4 @@ const BookForm = () => {
 };
 
 export default BookForm;
+
