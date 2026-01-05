@@ -12,14 +12,17 @@ const CheckOut = () => {
   return (
     <div className='relative flex items-center justify-end h-full'>
 
-      <div className='absolute z-10 pr-8'>
+      <label className="sr-only" htmlFor="checkout-date">Check out date</label>
+      <div className='absolute z-10 pr-8' aria-hidden="true">
         <div><BsCalendar className='text-accent text-base' /> </div>
       </div>
 
       <DatePicker
-        className='w-full h-full'
+        className='w-full h-full focus:outline-none focus:ring-2 focus:ring-accent focus:rounded-sm transition-shadow'
         selected={endDate}
         placeholderText='Check out'
+        id="checkout-date"
+        name="checkout-date"
         onChange={(date) => setEndDate(date)}
       />
 
